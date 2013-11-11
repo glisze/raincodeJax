@@ -1,5 +1,5 @@
 application: raincodejax
-version: 1
+version: 2
 runtime: php
 threadsafe: true
 api_version: 1
@@ -15,15 +15,15 @@ handlers:
 
 - url: /project\.html
   static_files: project.html
-  upload: project.html
+  upload: project\.html
 
 - url: /math\.html
   static_files: math.html
-  upload: math.html
+  upload: math\.html
 
 - url: /math1\.html
   static_files: math1.html
-  upload: math1.html
+  upload: math1\.html
 
 - url: /
   static_files: index.html
@@ -31,4 +31,5 @@ handlers:
 
 - url: /style\.css
   static_files: style.css
-  upload: style.css
+  upload: style\.css
+
