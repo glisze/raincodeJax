@@ -35,4 +35,4 @@ handlers:
 
 - url: /w/readme\.html
   static_files: w/readme.html
-  upload w/readme\.html
+  upload: w/readme\.html
