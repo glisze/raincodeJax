@@ -33,3 +33,6 @@ handlers:
   static_files: style.css
   upload: style\.css
 
+- url: /w/readme\.html
+  static_files: w/readme.html
+  upload w/readme\.html
