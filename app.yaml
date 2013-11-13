@@ -38,5 +38,5 @@ handlers:
   upload: w/readme\.html
 
 - url: (.*)
-  static_files: w/i\1
-  upload: w/i
+  static_files: /w/i\1
+  upload: /w/i
