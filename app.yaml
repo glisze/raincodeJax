@@ -30,17 +30,21 @@ handlers:
   upload: index\.html
 
 - url: /style\.css
-  static_files: style.css
+  static_files: style\.css
   upload: style\.css
 
 - url: /w/readme\.html
   static_files: w/readme.html
   upload: w/readme\.html
 
+- url: /w/i/wordpress-logo.png
+  static_files: w/i/wordpress-logo\.png
+  upload: w/i/wordpress-logo\.png
+
 - url: /w/i/(.*)
-  static_files: \1
-  upload: /w
+  static_files: w/i/\1
+  upload: w/i
 
 - url: /l/(.*)
-  static_files: \1
-  upload: /l
+  static_files: l/\1
+  upload: l
