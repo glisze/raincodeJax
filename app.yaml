@@ -37,6 +37,10 @@ handlers:
   static_files: w/readme.html
   upload: w/readme\.html
 
+- url: /SpecRunner.html
+  static_files: SpecRunner.html
+  upload: SpecRunner\.html
+
 - url: /w/i/wordpress-logo.png
   static_files: w/i/wordpress-logo\.png
   upload: w/i/wordpress-logo\.png
