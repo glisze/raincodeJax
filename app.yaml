@@ -41,6 +41,15 @@ handlers:
   static_files: SpecRunner.html
   upload: SpecRunner\.html
 
+- url: /lib
+  static_dir: lib
+
+- url: /spec
+  static_dir: spec
+
+- url: /src
+  static_dir: src
+
 - url: /w/i/wordpress-logo.png
   static_files: w/i/wordpress-logo\.png
   upload: w/i/wordpress-logo\.png
