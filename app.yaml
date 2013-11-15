@@ -30,7 +30,7 @@ handlers:
   upload: index\.html
 
 - url: /style\.css
-  static_files: style\.css
+  static_files: style.css
   upload: style\.css
 
 - url: /w/readme\.html
@@ -41,8 +41,8 @@ handlers:
   static_files: SpecRunner.html
   upload: SpecRunner\.html
 
-- url: /google-drive.html
-  static_files: google-drive\.html
+- url: /google-drive\.html
+  static_files: google-drive.html
   upload: google-drive\.html
 
 - url: /lib
