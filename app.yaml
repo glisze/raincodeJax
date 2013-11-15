@@ -41,6 +41,10 @@ handlers:
   static_files: SpecRunner.html
   upload: SpecRunner\.html
 
+- url: /google-drive.html
+  static_files: google-drive\.html
+  upload: google-drive\.html
+
 - url: /lib
   static_dir: lib
 
