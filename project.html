@@ -17,8 +17,19 @@ In the Cloud.
 =======
 2013-11-10 16:25 -- (after git checkout -b app1 ; for a back path) git checkout master ; to go and explore the app
 2013-11-11  1:29 -- being forceful, git push --force
+=======
+2013-11-14 14:01 -- importing the BDD deistribution, with a view of using it to follow the development here
 
   --   END DEVELOPMENT LOG
+
+       BEGIN the PLAN
+[[Sage, Math, Cloud|https://developers.google.com/appengine/docs/python/tools/localunittesting]],
+[[css style, about|http://make.wordpress.org/core/handbook/coding-standards/css/]]
+{{{
+$ svn co http://develop.svn.wordpress.org/trunk/ .
+}}}
+[[and then...|http://make.wordpress.org/core/handbook/installing-wordpress-locally/installing-via-svn/]]
+       END of the PLAN...
 -->
 <p>
 <ol>
@@ -31,6 +42,36 @@ In the Cloud.
 <li>...plan, re-cycle</li>
 <li>eventually... use</li>
 </ol>
+</p>
+
+    <h2>What about today</h2>
+
+    <p>
+        Behaviour Driven Development <!-- as they call it -->
+<pre><code>
+describe("A suite", function() {
+  it("contains spec with an expectation", function() {
+    expect(true).toBe(true);
+  });
+});
+</code>
+</pre>
+    </p>
+    <p>
+        The <a href="http://jasmine.github.io/2.0/introduction.html">Introduction to the BDD tool</a>
+        looks good.
+    </p>
+    <p>
+        Looking at the <a href="https://developers.google.com/appengine/docs/python/config/appconfig#Python_app_yaml_About_app_yaml">app.yaml file specification</a>
+    </p>
+    <p>
+<pre><code>
+handlers:
+# All URLs beginning with /stylesheets are treated as paths to static files in
+# the stylesheets/ directory.
+- url: /stylesheets
+  static_dir: stylesheets
+</code></pre>
 </p>
 <hr/>
 <address>
