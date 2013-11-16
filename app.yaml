@@ -65,3 +65,6 @@ handlers:
 - url: /l/(.*)
   static_files: l/\1
   upload: l
+
+- url: /iPad/jasmine-standalone-2.0.0-rc5
+  static_dir: iPad/jasmine-standalone-2.0.0-rc5
