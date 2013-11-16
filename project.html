@@ -4,10 +4,11 @@
 </head>
 
 <body>
-<h1>Raincode Jax Thing Test</h1>
+<h1>Widening the Explorations</h1>
 <p>
-This is the place.
-In the Cloud.
+Behaviour drive.<br/>
+In the Cloud.<br/>
+Using the jasmine tool to see the development of specified technology behaviour.
 </p>
 <!-- Log things that happen with this development below
   --   BEGIN DEVELOPMENT LOG (type comment)
@@ -19,7 +20,8 @@ In the Cloud.
 2013-11-11  1:29 -- being forceful, git push --force
 =======
 2013-11-14 14:01 -- importing the BDD deistribution, with a view of using it to follow the development here
-
+=======
+2013-11-16 23:31 -- new tries. jasmine, google-drive API examples, towards reliable veracity of the technology.
   --   END DEVELOPMENT LOG
 
        BEGIN the PLAN
@@ -33,7 +35,7 @@ $ svn co http://develop.svn.wordpress.org/trunk/ .
 -->
 <p>
 <ol>
-<li>Create the <a href="http://cloud.google.com/console#/projects">Google Clourd project</a></li>
+<li>Create the <a href="http://cloud.google.com/console/#projects">Google Clourd project</a></li>
 <li>Enable, clone, add this file, push, make a change, commit, push, purpose: validate things</li>
 <li>Configure, towards web access</li>
 <li>add content, mathJax, add a simple Math TeX</li>
@@ -47,7 +49,16 @@ $ svn co http://develop.svn.wordpress.org/trunk/ .
     <h2>What about today</h2>
 
     <p>
-        Behaviour Driven Development <!-- as they call it -->
+A concrete example of required behaviour. On the subject of the Google Drive.
+There is is requirement to upload something to the google drive.
+
+<a href="iPad/jasmine-standalone-2.0.0-rc5/SpecRunnerGoogleDrive.html">
+Google Drive Spec Runner</a>,
+<a href="iPad/jasmine-standalone-2.0.0-rc5/src/google-drive.html">
+quickstart example for the Google Drive</a>, refactored to separate ECMAscript from HTML, to help the
+development of verifiable behaviour.
+</p>
+<p>
 <pre><code>
 describe("A suite", function() {
   it("contains spec with an expectation", function() {
