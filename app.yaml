@@ -18,22 +18,22 @@ handlers:
   upload: index\.html
 
 - url: /project\.html
-  static_files: admin/\1
+  static_files: admin/project.html
   upload: admin/
 
 - url: /math\.html
-  static_files: d/\1
+  static_files: d/math.html
   upload: d/
 
 - url: /math1\.html
-  static_files: d/\1
+  static_files: d/math1.html
   upload: d/
 
 - url: /SpecRunner.html
   static_files: t/SpecRunner.html
   upload: t/
 
-- url: /google-drive\.html
+- url: /google\-drive\.html
   static_files: d/google-drive.html
   upload: d/
 
@@ -43,22 +43,14 @@ handlers:
 - url: /t
   static_dir: t
 
+- url: /d
+  static_dir: d
+
 - url: /v
   static_dir: review
 
-- url: /lib
-  static_dir: t/lib
+- url: /w
+  static_dir: review/w
 
-- url: /spec
-  static_dir: t/spec
-
-- url: /src
-  static_dir: t/src
-
-- url: /w/readme\.html
-  static_files: review/w/readme\.html
-  upload: review/w
-
-- url: /w/i/wordpress-logo.png
-  static_files: review/w/i/wordpress-logo\.png
-  upload: review/w/i
+- url: /a
+  static_dir: admin
