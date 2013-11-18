@@ -1,0 +1,6 @@
+<div class="span5">
+                                <input class="project-import-from-web" type="text" placeholder="Paste a link to something on the web here..." style="width:100%">
+                            </div>
+                            <div class="span3">
+                                <a class="btn" href="#import-from-web"><i class="fa fa-external-link"> </i> Copy to project</a>
+                            </div>
