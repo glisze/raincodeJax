@@ -4,16 +4,18 @@
      The ECMAscript code is taken from the Google Drive quickstart
      example. The ECMAscript is separated from the HTML to help with
      a jasmine behaviour specification. The aim is to extend and adapt
-     is use, while working within a validating environment.
+     its use, while working within a validating environment.
 
   */
 /**
    Global Data
-   CLIENT_ID has been generated with the Google Cloud console
+   ===========
+
+   CLIENT_ID  has been generated with the Google Cloud console
    SCOPES     Specifies the function that are permitted using this
   */
         var CLIENT_ID = '996416180033.apps.googleusercontent.com';
-        var SCOPES = 'https://www.googleapis.com/auth/drive';
+        var SCOPES    = 'https://www.googleapis.com/auth/drive';
 /**
     Start the authorisation flow
     The handler is assigned to the onload event of the google client api script
@@ -31,7 +33,7 @@
             handleAuthResult);
       }
 /**
-       A callback from the authorization server
+       A callback, that is called by the authorization server
        @param {Object} authResult Authorization result
     */
       function handleAuthResult(authResult) {
