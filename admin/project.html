@@ -1,15 +1,61 @@
 <html>
 <head>
-<title>Raincode Jax Thing Test</title>
+<title>Projecting Progress</title>
 </head>
 
 <body>
-<h1>Widening the Explorations</h1>
+<h1>Under Review</h1>
+
+<h2>Thoughts</h2>
 <p>
-Behaviour drive.<br/>
-In the Cloud.<br/>
-Using the jasmine tool to see the development of specified technology behaviour.
+Up in the air. Waiting for time. And gravity.
 </p>
+
+<ol>
+<li>Move into the <a href="http://cloud.google.com/console/#projects">Cloud of the Googles</a></li>
+<li>Enable, clone, add this file, push, make a change, commit, push, purpose: validate things</li>
+<li>Configure, towards web access</li>
+<li>add content, mathJax, add a simple Math TeX</li>
+<li>...plan further developments</li>
+<li>...plan development workflow, include testing, include agilities, include acceptance testing</li>
+<li>...plan, re-cycle</li>
+<li>eventually... use</li>
+</ol>
+
+<h2>Things to try</h2>
+
+<ol>
+<li>
+  Running a <a href="t/SpecRunnerGoogleDrive.html">Google Drive test spec</a>
+</li>
+<li>
+  Running the <a href="d/google-drive.html">Google Drive Quickstart</a> example.
+</li>
+</ol>
+<h2>Things to know how to do</h2>
+<ol><li>
+ <p><a href="https://developers.google.com/appengine/docs/python/config/appconfig#Python_app_yaml_About_app_yaml">
+     app.yaml
+   </a> appears to define how things are deployed withing this space.
+ </p>
+</li>
+<li>
+ <p>
+  <a href="http://jasmine.github.io/2.0/introduction.html">Jasmine introduction.</a>
+   Behaviour Driven Development. How does the program behave.
+   Describe it. Expect predictable behaviour.
+ </p>
+</li>
+</ol>
+    
+
+<hr/>
+<address>
+<a href="/">Back to the root</a> of this area.
+<br/>
+2013-11-18 19:30
+</address>
+</body>
 <!-- Log things that happen with this development below
   --   BEGIN DEVELOPMENT LOG (type comment)
 2013-11-10 16:.. -- initial push to the cloud.google.com
@@ -34,69 +80,3 @@ $ svn co http://develop.svn.wordpress.org/trunk/ .
 [[and then...|http://make.wordpress.org/core/handbook/installing-wordpress-locally/installing-via-svn/]]
        END of the PLAN...
 -->
-<p>
-<ol>
-<li>Create the <a href="http://cloud.google.com/console/#projects">Google Clourd project</a></li>
-<li>Enable, clone, add this file, push, make a change, commit, push, purpose: validate things</li>
-<li>Configure, towards web access</li>
-<li>add content, mathJax, add a simple Math TeX</li>
-<li>...plan further developments</li>
-<li>...plan development workflow, include testing, include agilities, include acceptance testing</li>
-<li>...plan, re-cycle</li>
-<li>eventually... use</li>
-</ol>
-</p>
-
-    <h2>What about today</h2>
-
-    <p>
-A concrete example of required behaviour. On the subject of the Google Drive.
-There is is requirement to upload something to the google drive.
-
-<a href="iPad/jasmine-standalone-2.0.0-rc5/SpecRunnerGoogleDrive.html">
-Google Drive Spec Runner</a>,
-<a href="iPad/jasmine-standalone-2.0.0-rc5/src/google-drive.html">
-quickstart example for the Google Drive</a>, refactored to separate ECMAscript from HTML, to help the
-development of verifiable behaviour.
-</p>
-<p>
-<pre><code>
-describe("A suite", function() {
-  it("contains spec with an expectation", function() {
-    expect(true).toBe(true);
-  });
-});
-</code>
-</pre>
-    </p>
-    <p>
-        The <a href="http://jasmine.github.io/2.0/introduction.html">Introduction to the BDD tool</a>
-        looks good.
-    </p>
-<div class="oldish" id="yesterdays" style="display: none;">
-<h2>Some days ago</h2>
-
-<p>
-... but still current and relevant
-</p>
-    <p>
-        Looking at the <a href="https://developers.google.com/appengine/docs/python/config/appconfig#Python_app_yaml_About_app_yaml">app.yaml file specification</a>
-    </p>
-    <p>
-<pre><code>
-handlers:
-# All URLs beginning with /stylesheets are treated as paths to static files in
-# the stylesheets/ directory.
-- url: /stylesheets
-  static_dir: stylesheets
-</code></pre>
-</p>
-</div>
-
-<hr/>
-<address>
-<a href="/">The root of this one there</a>
-<br/>
-2013-11-17 00:10 -- it is Sunday now
-</address>
-</body>

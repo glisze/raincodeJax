@@ -9,62 +9,56 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 
+- url: /
+  static_files: index.html
+  upload: index\.html
+
 - url: /index\.html
   static_files: index.html
   upload: index\.html
 
 - url: /project\.html
-  static_files: project.html
-  upload: project\.html
+  static_files: admin/\1
+  upload: admin/
 
 - url: /math\.html
-  static_files: math.html
-  upload: math\.html
+  static_files: d/\1
+  upload: d/
 
 - url: /math1\.html
-  static_files: math1.html
-  upload: math1\.html
-
-- url: /
-  static_files: index.html
-  upload: index\.html
-
-- url: /style\.css
-  static_files: style.css
-  upload: style\.css
-
-- url: /w/readme\.html
-  static_files: w/readme.html
-  upload: w/readme\.html
+  static_files: d/\1
+  upload: d/
 
 - url: /SpecRunner.html
-  static_files: SpecRunner.html
-  upload: SpecRunner\.html
+  static_files: t/SpecRunner.html
+  upload: t/
 
 - url: /google-drive\.html
-  static_files: google-drive.html
-  upload: google-drive\.html
+  static_files: d/google-drive.html
+  upload: d/
+
+- url: /s
+  static_dir: s
+
+- url: /t
+  static_dir: t
+
+- url: /v
+  static_dir: review
 
 - url: /lib
-  static_dir: lib
+  static_dir: t/lib
 
 - url: /spec
-  static_dir: spec
+  static_dir: t/spec
 
 - url: /src
-  static_dir: src
+  static_dir: t/src
+
+- url: /w/readme\.html
+  static_files: review/w/readme\.html
+  upload: review/w
 
 - url: /w/i/wordpress-logo.png
-  static_files: w/i/wordpress-logo\.png
-  upload: w/i/wordpress-logo\.png
-
-- url: /w/i/(.*)
-  static_files: w/i/\1
-  upload: w/i
-
-- url: /l/(.*)
-  static_files: l/\1
-  upload: l
-
-- url: /iPad/jasmine-standalone-2.0.0-rc5
-  static_dir: iPad/jasmine-standalone-2.0.0-rc5
+  static_files: review/w/i/wordpress-logo\.png
+  upload: review/w/i
