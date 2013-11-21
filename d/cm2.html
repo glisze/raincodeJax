@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Test: The CodeMirror</title>
+        <title>Test: CodeMirror, target a DOM Element</title>
         <link rel="stylesheet" href="/l/cm/codemirror.css">
     </head>
-    <h1>Test: The CodeMirror</h1>
-    <p>
-        Test: Is this paragraph vsible?
-        Answer: Yes. It stays.
-        Result: the first test looks ok.
-    </p>
+    <h1>Test: The CodeMirror, target a DOM Element</h1>
+
     <p>
         Test: attach the script to a different element
     </p>
     <hr/>
+    <div id="myTextArea">
+        <p>
+            Test: Do you see this line?
+        </p>
+    </div>
+    <hr/>
     <address>
-        2013-11-21 18:54<br/>
+        2013-11-21 19:06<br/>
         Belfast Central Library <!-- 37 -->
     </address>
     <hr/>
 <script src="/l/cm/codemirror.js"></script>
 <script src="/l/cm/mode/javascript/javascript.js"></script>
 <script>
-    var myCodeMirror = CodeMirror(document.body, {
-      value: "function myScript(){return 100;}\n",
-      mode:  "javascript"
-});
+var myCodeMirror = CodeMirror(function(elt) {
+  myTextArea.parentNode.replaceChild(elt, myTextArea);
+}, {value: myTextArea.value});
 </script>
 </body>
 </html>
