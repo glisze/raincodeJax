@@ -43,6 +43,9 @@ handlers:
 - url: /t
   static_dir: t
 
+- url: /l
+  static_dir: l
+  
 - url: /d
   static_dir: d
 

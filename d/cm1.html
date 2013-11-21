@@ -6,14 +6,20 @@
     </head>
     <h1>Test: The CodeMirror</h1>
     <p>
-        Test: Is this paragraph vsible? 
+        Test: Is this paragraph vsible?
     </p>
-
+    <hr/>
+    <address>
+        2013-11-21 18:54<br/>
+        Belfast Central Library <!-- 37 -->
+    </address>
 <script src="/l/cm/codemirror.js"></script>
 <script src="/l/cm/mode/javascript/javascript.js"></script>
+<script>
     var myCodeMirror = CodeMirror(document.body, {
       value: "function myScript(){return 100;}\n",
       mode:  "javascript"
 });
+</script>
 </body>
 </html>
