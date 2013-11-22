@@ -69,3 +69,25 @@ remote: Deployment to AppEngine successful.[K
 To https://code.google.com/id/qnjp-uQ-Vn6/
    0407436..1952ee9  master -> master
 Everything up-to-date
+remote: Scanning pack: 25% (1/4)[Kremote: Scanning pack: 50% (2/4)[Kremote: Scanning pack: 75% (3/4)[Kremote: Scanning pack: 100% (4/4)[Kremote: Scanning pack: 100% (4/4), done.[K
+remote: Storing objects: 25% (1/4)[Kremote: Storing objects: 50% (2/4)[Kremote: Storing objects: 75% (3/4)[Kremote: Storing objects: 100% (4/4)[Kremote: Storing objects: 100% (4/4), done.[K
+remote: Processing commits: 100% (1/1)[Kremote: Processing commits: 100% (1/1), done.[K
+remote: Deploying...[K
+remote: Created deployment: jax-ml-45.clouddev.gaeTemplate-d981b975f1ecaa6d.deployment_1385150482857[K
+remote: Deployment 'jax-ml-45@clouddev@gaeTemplate-d981b975f1ecaa6d@deployment_1385150482857@a05cccbe-7090-40c8-b087-442ee35fe4b4' is in PENDING.[K
+remote: Deployment 'jax-ml-45@clouddev@gaeTemplate-d981b975f1ecaa6d@deployment_1385150482857@a05cccbe-7090-40c8-b087-442ee35fe4b4' is in PENDING.[K
+remote: Scanned 250 files.[K
+remote: Scanning files on local disk.[K
+remote: Initiating update.[K
+remote: Cloning 446 static files.[K
+remote: Cloning 3 application files.[K
+remote: Uploaded 1 files.[K
+remote: Uploading 1 files.[K
+remote: Sending batch containing 1 blob(s) totaling 6KB.[K
+remote: Deploying new version.[K
+remote: Closing update: new version is ready to start serving.[K
+remote: Updated successfully[K
+remote: Deployment 'jax-ml-45@clouddev@gaeTemplate-d981b975f1ecaa6d@deployment_1385150482857@a05cccbe-7090-40c8-b087-442ee35fe4b4' is in RUNNING.[K
+remote: Deployment to AppEngine successful.[K
+To https://code.google.com/id/qnjp-uQ-Vn6/
+   45e47cc..49f086b  master -> master
