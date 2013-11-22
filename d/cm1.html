@@ -4,26 +4,22 @@
         <title>Test: The CodeMirror</title>
         <link rel="stylesheet" href="/l/cm/codemirror.css">
     </head>
-    <h1>Test: The CodeMirror</h1>
+    <h1>Test: The CodeMirror -- Hello</h1>
     <p>
-        Test: Is this paragraph vsible?
-        Answer: Yes. It stays.
-        Result: the first test looks ok.
-    </p>
-    <p>
-        Test: attach the script to a different element
+      This page aims to develop towards a text editor.
+      An editor that works on the move.
     </p>
     <hr/>
     <address>
-        2013-11-21 18:54<br/>
-        Belfast Central Library <!-- 37 -->
+        2013-11-22 17:54<br/>
+        TV Area
     </address>
     <hr/>
 <script src="/l/cm/codemirror.js"></script>
 <script src="/l/cm/mode/javascript/javascript.js"></script>
 <script>
     var myCodeMirror = CodeMirror(document.body, {
-      value: "function myScript(){return 100;}\n",
+      value: "\n\nfunction myScript(){return "Hello, ECMAscript, World!";}\n",
       mode:  "javascript"
 });
 </script>
