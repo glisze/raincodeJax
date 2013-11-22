@@ -19,7 +19,9 @@
 
 <section id=demo>
   <h2>Text Area</h2>
-  <form style="position: relative; margin-top: .5em;"><textarea id=demotext>
+<!--  <form style="position: relative; margin-top: .5em;"><textarea id=demotext>
+  -->
+<iframe id="demotext">
 
 <!-- Create a simple CodeMirror instance -->
 <link rel="stylesheet" href="lib/codemirror.css">
@@ -30,7 +32,8 @@
   var editor = CodeMirror.fromTextArea(myTextarea, {
     mode: "text/html"
   });
-</script></textarea>
+</script>
+</iframe>
   <select id="demolist" onchange="document.location = this.options[this.selectedIndex].value;">
     <option value="#">Other demos...</option>
     <option value="nohup.out">git push standard output</option>
