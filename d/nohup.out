@@ -1,0 +1,22 @@
+remote: Scanning pack: 25% (1/4)[Kremote: Scanning pack: 50% (2/4)[Kremote: Scanning pack: 75% (3/4)[Kremote: Scanning pack: 100% (4/4)[Kremote: Scanning pack: 100% (4/4), done.[K
+remote: Storing objects: 25% (1/4)[Kremote: Storing objects: 50% (2/4)[Kremote: Storing objects: 75% (3/4)[Kremote: Storing objects: 100% (4/4)[Kremote: Storing objects: 100% (4/4), done.[K
+remote: Processing commits: 100% (1/1)[Kremote: Processing commits: 100% (1/1), done.[K
+remote: Deploying...[K
+remote: Created deployment: jax-ml-45.clouddev.gaeTemplate-d981b975f1ecaa6d.deployment_1385144487452[K
+remote: Dispatched[K
+remote: Created deployment: jax-ml-45.clouddev.gaeTemplate-d981b975f1ecaa6d.deployment_1385144487452[K
+remote: Deployment 'jax-ml-45@clouddev@gaeTemplate-d981b975f1ecaa6d@deployment_1385144487452@1722c03a-fe9f-4b4a-bfcc-3e1552a3abaf' is in PENDING.[K
+remote: Dispatched[K
+remote: Created deployment: jax-ml-45.clouddev.gaeTemplate-d981b975f1ecaa6d.deployment_1385144487452[K
+remote: Created deployment: jax-ml-45.clouddev.gaeTemplate-d981b975f1ecaa6d.deployment_1385144487452[K
+remote: Dispatched[K
+remote: Created deployment: jax-ml-45.clouddev.gaeTemplate-d981b975f1ecaa6d.deployment_1385144487452[K
+remote: Deployment 'jax-ml-45@clouddev@gaeTemplate-d981b975f1ecaa6d@deployment_1385144487452@1722c03a-fe9f-4b4a-bfcc-3e1552a3abaf' is in PENDING.[K
+remote: Dispatched[K
+remote: Created deployment: jax-ml-45.clouddev.gaeTemplate-d981b975f1ecaa6d.deployment_1385144487452[K
+remote: Dispatched[K
+remote: Created deployment: jax-ml-45.clouddev.gaeTemplate-d981b975f1ecaa6d.deployment_1385144487452[K
+remote: Created deployment: jax-ml-45.clouddev.gaeTemplate-d981b975f1ecaa6d.deployment_1385144487452[K
+remote: Deployment to AppEngine successful.[K
+To https://code.google.com/id/qnjp-uQ-Vn6/
+   0f4601f..44c9ccb  master -> master
