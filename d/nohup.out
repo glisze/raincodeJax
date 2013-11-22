@@ -20,3 +20,26 @@ remote: Created deployment: jax-ml-45.clouddev.gaeTemplate-d981b975f1ecaa6d.depl
 remote: Deployment to AppEngine successful.[K
 To https://code.google.com/id/qnjp-uQ-Vn6/
    0f4601f..44c9ccb  master -> master
+remote: Scanning pack: 20% (1/5)[Kremote: Scanning pack: 40% (2/5)[Kremote: Scanning pack: 60% (3/5)[Kremote: Scanning pack: 80% (4/5)[Kremote: Scanning pack: 100% (5/5)[Kremote: Scanning pack: 100% (5/5), done.[K
+remote: Storing objects: 20% (1/5)[Kremote: Storing objects: 40% (2/5)[Kremote: Storing objects: 60% (3/5)[Kremote: Storing objects: 80% (4/5)[Kremote: Storing objects: 100% (5/5)[Kremote: Storing objects: 100% (5/5), done.[K
+remote: Processing commits: 100% (1/1)[Kremote: Processing commits: 100% (1/1), done.[K
+remote: Deploying...[K
+remote: Created deployment: jax-ml-45.clouddev.gaeTemplate-d981b975f1ecaa6d.deployment_1385146294647[K
+remote: Deployment 'jax-ml-45@clouddev@gaeTemplate-d981b975f1ecaa6d@deployment_1385146294647@124ba972-6303-4489-aa69-1fbb53fe4366' is in PENDING.[K
+remote: Created deployment: jax-ml-45.clouddev.gaeTemplate-d981b975f1ecaa6d.deployment_1385146294647[K
+remote: Dispatched[K
+remote: Deployment 'jax-ml-45@clouddev@gaeTemplate-d981b975f1ecaa6d@deployment_1385146294647@124ba972-6303-4489-aa69-1fbb53fe4366' is in PENDING.[K
+remote: Created deployment: jax-ml-45.clouddev.gaeTemplate-d981b975f1ecaa6d.deployment_1385146294647[K
+remote: Created deployment: jax-ml-45.clouddev.gaeTemplate-d981b975f1ecaa6d.deployment_1385146294647[K
+remote: Created deployment: jax-ml-45.clouddev.gaeTemplate-d981b975f1ecaa6d.deployment_1385146294647[K
+remote: Scanning files on local disk.[K
+remote: Dispatched[K
+remote: Deployment 'jax-ml-45@clouddev@gaeTemplate-d981b975f1ecaa6d@deployment_1385146294647@124ba972-6303-4489-aa69-1fbb53fe4366' is in PENDING.[K
+remote: Created deployment: jax-ml-45.clouddev.gaeTemplate-d981b975f1ecaa6d.deployment_1385146294647[K
+remote: Created deployment: jax-ml-45.clouddev.gaeTemplate-d981b975f1ecaa6d.deployment_1385146294647[K
+remote: Deployment 'jax-ml-45@clouddev@gaeTemplate-d981b975f1ecaa6d@deployment_1385146294647@124ba972-6303-4489-aa69-1fbb53fe4366' is in PENDING.[K
+remote: Created deployment: jax-ml-45.clouddev.gaeTemplate-d981b975f1ecaa6d.deployment_1385146294647[K
+remote: Created deployment: jax-ml-45.clouddev.gaeTemplate-d981b975f1ecaa6d.deployment_1385146294647[K
+remote: Deployment to AppEngine successful.[K
+To https://code.google.com/id/qnjp-uQ-Vn6/
+   44c9ccb..0407436  master -> master

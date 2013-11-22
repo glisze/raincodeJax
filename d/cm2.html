@@ -12,10 +12,80 @@
     <hr/>
 <iframe id="myTextArea" class="editable"  src="nohup.out"></iframe>
 
+<!-- This is pasted from the CodeMirror index.html file -->
+
+<section id=demo>
+  <h2>This is CodeMirror</h2>
+  <form style="position: relative; margin-top: .5em;"><textarea id=demotext>
+<!-- Create a simple CodeMirror instance -->
+<link rel="stylesheet" href="lib/codemirror.css">
+<script src="lib/codemirror.js"></script>
+<script>
+  var editor = CodeMirror.fromTextArea(myTextarea, {
+    mode: "text/html"
+  });
+</script></textarea>
+  <select id="demolist" onchange="document.location = this.options[this.selectedIndex].value;">
+    <option value="#">Other demos...</option>
+    <option value="demo/complete.html">Autocompletion</option>
+    <option value="demo/folding.html">Code folding</option>
+    <option value="demo/theme.html">Themes</option>
+    <option value="mode/htmlmixed/index.html">Mixed language modes</option>
+    <option value="demo/bidi.html">Bi-directional text</option>
+    <option value="demo/variableheight.html">Variable font sizes</option>
+    <option value="demo/search.html">Search interface</option>
+    <option value="demo/vim.html">Vim bindings</option>
+    <option value="demo/emacs.html">Emacs bindings</option>
+    <option value="demo/tern.html">Tern integration</option>
+    <option value="demo/merge.html">Merge/diff interface</option>
+    <option value="demo/fullscreen.html">Full-screen editor</option>
+  </select></form>
+  <script>
+    var editor = CodeMirror.fromTextArea(document.getElementById("demotext"), {
+      lineNumbers: true,
+      mode: "text/html",
+      matchBrackets: true
+    });
+  </script>
+  <div style="position: relative; margin: 1em 0;">
+    <a class="bigbutton left" href="http://codemirror.net/codemirror.zip">DOWNLOAD LATEST RELEASE</a>
+    <div><strong>version 3.19</strong> (<a href="doc/releases.html">Release notes</a>)</div>
+    <div>or use the <a href="doc/compress.html">minification helper</a></div>
+    <div style="position: absolute; top: 0; right: 0; text-align: right">
+      <span class="bigbutton right" onclick="document.getElementById('paypal').submit();">DONATE WITH PAYPAL</span>
+      <div style="position: relative">
+        or <span onclick="document.getElementById('bankinfo').style.display = 'block';" class=quasilink>Bank</span>,
+        <a href="https://www.gittip.com/marijnh">Gittip</a>,
+        <a href="https://flattr.com/profile/marijnh">Flattr</a><br>
+        <div id=bankinfo>
+          <span id=bankinfo_close onclick="document.getElementById('bankinfo').style.display = '';">×</span>
+          Bank: <i>Rabobank</i><br/>
+          Country: <i>Netherlands</i><br/>
+          SWIFT: <i>RABONL2U</i><br/>
+          Account: <i>147850770</i><br/>
+          Name: <i>Marijn Haverbeke</i><br/>
+          IBAN: <i>NL26 RABO 0147 8507 70</i>
+        </div>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" id="paypal">
+          <input type="hidden" name="cmd" value="_s-xclick"/>
+          <input type="hidden" name="hosted_button_id" value="3FVHS5FGUY7CC"/>
+        </form>
+      </div>
+      <div>
+        Purchase <a href="http://codemirror.com">commercial support</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- END CodeMirror index.html -->
+
+
     <hr/>
     <address>
-        2013-11-21 19:06<br/>
-        Belfast Central Library <!-- 37 -->
+        2013-11-22 19:12<br/>
+        TV Area <!-- Men's Hostel, Magic FM -->
     </address>
     <hr/>
 <script src="/l/cm/codemirror.js"></script>
