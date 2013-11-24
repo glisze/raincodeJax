@@ -4,7 +4,7 @@ runtime: go
 api_version: go1
 
 handlers:
-- url: (/|/get|/post|/put|/delete)
+- url: (/get|/post|/put|/delete)
   script: _go_app
 
 - url: /favicon\.ico
