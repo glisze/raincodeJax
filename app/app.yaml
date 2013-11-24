@@ -1,0 +1,8 @@
+application: raincodeJax
+version: 3
+runtime: go
+api_version: go1
+
+handlers:
+- url: (/|/get|/post|/put|/delete)
+  script: _go_app
