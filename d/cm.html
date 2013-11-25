@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CodeMirror-Test</title>
+    <link rel="stylesheet" href="/l/cm/codemirror.css">
+  </head>
+  <body>
+   <h1>CodeMirror-Exploring</h1>
+   <hr/>
+   <section id=demo>
+    <h2>Text Area</h2>
+    <form style="position: relative; margin-top: .5em;">
+      <textarea id="demotext">
+<link rel="stylesheet" href="/l/cm/codemirror.css">
+<script src="/l/cm/codemirror.js"></script>
+<script src="/l/cm/mode/javascript/javascript.js"></script>
+<script>
+  var editor = CodeMirror.fromTextArea(document.getElementById("demotext"), {
+    lineNumbers: true,
+    mode: "text/html",
+    matchBrackets: true
+  });
+</script>
+     </textarea>
+     <select id="demolist" onchange="document.location = this.options[this.selectedIndex].value;">
+       <option value="/v/cm/demo/fullscreen.html">Full-screen editor</option>
+     </select/>
+    </form>
+  </section>
+
+ <hr/>
+    <address>
+        2013-11-25 21:32 <br/>
+        TV Area <!-- Men's Hostel, Magic FM -->
+    </address>
+    <hr/>
+<script src="/l/cm/codemirror.js"></script>
+<script src="/l/cm/mode/javascript/javascript.js"></script>
+<script>
+  var editor = CodeMirror.fromTextArea(document.getElementById("demotext"), {
+    lineNumbers: true,
+    mode: "text/html",
+    matchBrackets: true
+  });
+</script>
+</body>
+</html>
