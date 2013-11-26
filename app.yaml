@@ -1,10 +1,12 @@
-application: raincodejax
-version: 2
-runtime: php
-threadsafe: true
-api_version: 1
+application: raincodeJax
+version: 3
+runtime: go
+api_version: go1
 
 handlers:
+- url: (/get|/post|/put|/delete)
+  script: _go_app
+
 - url: /favicon\.ico
   static_files: favicon.ico
   upload: favicon\.ico
