@@ -1,5 +1,5 @@
-application: raincodeJax
-version: 3
+application: jax-ml-45
+version: 4
 runtime: go
 api_version: go1
 
@@ -47,7 +47,7 @@ handlers:
 
 - url: /l
   static_dir: l
-  
+
 - url: /d
   static_dir: d
 
