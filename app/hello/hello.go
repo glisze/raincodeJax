@@ -9,7 +9,7 @@ import (
 )
 
 func init() {
-    http.HandleFunc("/", handler)
+    http.HandleFunc("/get", handler)
 }
 
 func handler(w http.ResponseWriter, r *http.Request) {
