@@ -6,19 +6,26 @@ import (
 )
 
 func init() {
-	http.HandleFunc("/", handler)
 	http.HandleFunc("/get", get)
 	http.HandleFunc("/post", post)
 	http.HandleFunc("/put", put)
 	http.HandleFunc("/delete", delete)
 }
 
-func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, "Hi, Lo, this is the plat formed app-engine!\n")
-}
-
 func get(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprint(w, "Hi! What do you want?\n")
+    c := appengine.NewContext(r)
+    u := user.Current(c)
+    if u == nil {
+        url, err := user.LoginURL(c, r.URL.String())
+        if err != nil {
+            http.Error(w, err.Error(), http.StatusInternalServerError)
+            return
+        }
+        w.Header().Set("Location", url)
+        w.WriteHeader(http.StatusFound)
+        return
+    }
+    fmt.Fprintf(w, "<!DOCTYPE html><html><head><title>Hello</title></head><body><h1>Hello,</h1><br/>%v!<br/>What's up?</body></html>", u)
 }
 
 func post(w http.ResponseWriter, r *http.Request) {
@@ -33,6 +40,3 @@ func delete(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprint(w, "Hi! That was restful. Again!\n")
 }
 
-func main() {
-	fmt.Printf("Hi, I am starting...")
-}
