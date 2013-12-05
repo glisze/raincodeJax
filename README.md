@@ -1,17 +1,12 @@
 hello
 =====
 
-The move is going on. Giving it a go...
-
-...but hold on! Don't panic.
-This doen't even build in this neighbourhood.
-
-
 <pre>
     /get
     /put
     /post
     /delete
+    /Sqrt
 </pre>
 
 ECMAscript
