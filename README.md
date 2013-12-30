@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 hello
 =====
 
@@ -34,3 +35,14 @@ var c = (function () {
 })();
 
 alert(c.please())
+=======
+raincodeJax
+===========
+
+raincodeJax
+
+This is the jax-ml-45.appspot.com web thing.
+This repository aims to allow online working to maintain the google appspot.
+
+http://4.jax-ml-45.appspot.com is the current, and very early, exploratory, version.
+>>>>>>> 53f19016f83fa9466f61441da1a59715c1f2f61b
